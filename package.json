@@ -2,7 +2,7 @@
   "name": "nodered-railway",
   "private": true,
   "scripts": {
-    "start": "node node_modules/node-red/red.js -u /data -p 3000"
+    "start": "node node_modules/node-red/red.js -u /data -p 3000 -H 0.0.0.0"
   },
   "dependencies": {
     "node-red": "^3.1.9"
